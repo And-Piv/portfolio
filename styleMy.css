@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    width: 100%;
+    /* position: absolute; */
+}
+
+main{
+    width:70%;
+    margin: auto;
+}
+header{
+    background-color: rgb(87 140 159);
+    width: 100%;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+
+nav h1{
+    font-family: 'Courgette', cursive;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+}
+
+nav a:hover{
+    color:rgb(75, 177, 177);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    padding: 10px;
+}
+
+.logo{
+    padding: 10px;
+}
+
+.About-me-conteiner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.About-me-text-conteiner{
+    width: 70%;
+}
+
+.About-me-img-conteiner{
+    height: 100%;
+    width: 30%;
+    
+}
+
+.About-me-img-conteiner img{
+    height: 100%;
+    width: 100%;
+    box-sizing: content-box;   
+}
+
+#projects ul{
+    list-style: none;
+    padding: 0;
+}
+
+#projects li{
+    margin: 0px;
+    
+}
+
+#projects a:hover{
+    color:green;
+}
+
+#social{
+    display: flex;
+}
+
+#skills{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.icon{
+    margin: 0px 10px;
+}
+
+.icon i {
+    font-size: 64px;
+    
+}
+
+#skills .tuch:hover{
+    color: brown;
+}
+footer {
+
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    width:100%;
+    background-color: rgb(0, 0, 0);
+    color: honeydew;
+ }
+
+ footer p{
+     margin-left: 10px;
+
+ }
+
+ footer h2{
+     margin-left: 10px;
+
+ }
+
+ .tuch{
+     position: relative;
+ }
+
+ .dropdown-content{
+     padding: 5px;
+     display: none;
+
+     position: absolute;
+     background-color: rgb(179, 179, 179);
+     top: -64px;
+     left: 50px; 
+     border-radius: 20px; 
+     color: black; 
+ }
+
+ .show{
+     display: block;
+ }
+
+ #in-dropdown-content{
+    display: flex;
+ }

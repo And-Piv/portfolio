@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleMy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2c85f86931.js" crossorigin="anonymous"></script>
+    <title>Портфолио Сайт</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 class="logo"><a href="index.html">Andrey Pivachev</a></h1>
+            <ul class="nav-items">
+                <li><a href="#">О Себе</a></li>
+                <li><a href="#">Проекты</a></li>
+                <li><a href="#">Навыки и умения</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="About-me">
+            <div class="About-me-conteiner">
+                <div class="About-me-text-conteiner">
+                    <h1>Обо мне</h1>
+
+                    <p>Привет! Я Ада, графиня Лавлейс, английский
+                        математик и писатель, в основном известная своей работой над
+                        предлагаемым Чарльзом Бэббиджем механическим компьютером общего назначения - Аналитической
+                        машиной.
+                    </p>
+
+                    <p>Я один из первых, кто осознал, что у машин есть приложения, выходящие за рамки чисто вычислений,
+                        и
+                        опубликовал первый алгоритм, предназначенный для выполнения на такой машине.</p>
+                    <p>В свободное время я люблю читать о научных разработках, математике и вычислительной математике. Я
+                        также
+                        люблю рисковать большим выигрышем.</p>
+                </div>
+
+                <div class="About-me-img-conteiner">
+                    <img src="ref/image_proger.jpg">
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h1>Проекты</h1>
+            <ul>
+                <li><a>
+                        <h3> &rarr; Первая компьютерная прграмма</h3>
+                    </a></li>
+                <li><a>
+                        <h3>&rarr; Аналитическая машина</h3>
+                    </a></li>
+                <li><a>
+                        <h3>&rarr; Язык программирования Ада</h3>
+                    </a></li>
+            </ul>
+        </section>
+        <section id="skills">
+
+            <div class="icon">
+                <a><i class="fab fa-css3-alt"></i></a>
+            </div>
+            <div class="icon">
+                <a><i class="fab fa-html5"></i></a>
+            </div>
+            <div class="icon">
+                <a><i class="fab fa-git-alt"></i></a>
+            </div>
+            <div class="icon">
+                <a><i class="fab fa-js-square"></i></a>
+            </div>
+            <div class="icon">
+                <a><i class="fab fa-github-square"></i></a>
+            </div>
+
+            <div id="last" class="icon tuch">
+                <a onclick="myFunction()"><i class="far fa-plus-square"></i></a>
+                <div id="dropdown" class="dropdown-content">
+                    <div id="in-dropdown-content">
+                        <div class="icon">
+                            <a onclick="AddElement('fab fa-github-square')"><i class="fab fa-github-square"></i></a>
+                        </div>
+                        <div class="icon">
+                            <a onclick="AddElement('fab fa-react')"><i class="fab fa-react"></i></a>
+                        </div>
+                        <div class="icon">
+                            <a onclick="AddElement('fab fa-youtube')"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <div class="icon">
+                            <a onclick="AddElement('fab fa-npm')"><i class="fab fa-npm"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+
+        <h2>Контакты:</h2>
+        <p>mail: <a>and-piv@yandex.ru</a></p>
+        <p>тел. 8(918)65-123-65</p>
+    </footer>
+
+
+
+</body>
+
+</html>
