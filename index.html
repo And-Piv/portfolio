@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2c85f86931.js" crossorigin="anonymous"></script>
     <title>Портфолио Сайт</title>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -82,9 +83,27 @@
             <div class="icon">
                 <a><i class="fab fa-github-square"></i></a>
             </div>
-            <div class="icon tuch">
-                <a><i class="far fa-plus-square"></i></a>
+
+            <div id="last" class="icon tuch">
+                <a onclick="myFunction()"><i class="far fa-plus-square"></i></a>
+                <div id="dropdown" class="dropdown-content">
+                    <div id="in-dropdown-content">
+                        <div class="icon">
+                            <a onclick="AddElement('fab fa-github-square')"><i class="fab fa-github-square"></i></a>
+                        </div>
+                        <div class="icon">
+                            <a onclick="AddElement('fab fa-react')"><i class="fab fa-react"></i></a>
+                        </div>
+                        <div class="icon">
+                            <a onclick="AddElement('fab fa-youtube')"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <div class="icon">
+                            <a onclick="AddElement('fab fa-npm')"><i class="fab fa-npm"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </section>
     </main>
     <footer>
@@ -93,6 +112,9 @@
         <p>mail: <a>and-piv@yandex.ru</a></p>
         <p>тел. 8(918)65-123-65</p>
     </footer>
+
+
+
 </body>
 
 </html>

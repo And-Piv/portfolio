@@ -125,3 +125,27 @@ footer {
      margin-left: 10px;
 
  }
+
+ .tuch{
+     position: relative;
+ }
+
+ .dropdown-content{
+     padding: 5px;
+     display: none;
+
+     position: absolute;
+     background-color: rgb(179, 179, 179);
+     top: -64px;
+     left: 50px; 
+     border-radius: 20px; 
+     color: black; 
+ }
+
+ .show{
+     display: block;
+ }
+
+ #in-dropdown-content{
+    display: flex;
+ }
